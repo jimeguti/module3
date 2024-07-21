@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .navbar {
@@ -28,53 +27,3 @@ body {
         float: none;
     }
 }
-
-h1 {
-    margin-top: 70px; /* To avoid overlapping with the navbar */
-}
-
-.main {
-    padding: 20px;
-    background-color: #f8f8f8;
-}
-
-.menu-item {
-    border: 1px solid black;
-    padding: 30px;
-    box-sizing: border-box;
-    position: relative;
-    background-color: #f0f0f0;
-    margin-bottom: 30px;
-}
-
-.menu-item .title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffff99; /* Amarillo más claro */
-    padding: 5px 10px;
-    border: 1px solid black;
-    font-weight: bold;
-}
-
-@media (min-width: 992px) {
-    .menu-item {
-        width: 32%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .menu-item {
-        width: 48%;
-    }
-    .menu-item:nth-child(3) {
-        width: 100%;
-    }
-}
-
-@media (max-width: 767px) {
-    .menu-item {
-        width: 100%;
-    }
-}
-
